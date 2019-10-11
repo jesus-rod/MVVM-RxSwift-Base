@@ -1,0 +1,6 @@
+$(SRCROOT)/Carthage/Build/iOS/Kingsfiher.framework
+$(SRCROOT)/Carthage/Build/iOS/PromiseKit.framework
+$(SRCROOT)/Carthage/Build/iOS/RxAtomic.framework
+$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework
+$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework
+$(SRCROOT)/Carthage/Build/iOS/RxTest.framework
