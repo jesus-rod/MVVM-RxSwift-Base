@@ -13,29 +13,11 @@
 		23077B8E2306BD5C007E19DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23077B8C2306BD5C007E19DE /* LaunchScreen.storyboard */; };
 		23077B992306BD5C007E19DE /* MVVMPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23077B982306BD5C007E19DE /* MVVMPracticeTests.swift */; };
 		23077BA42306BD5C007E19DE /* MVVMPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23077BA32306BD5C007E19DE /* MVVMPracticeUITests.swift */; };
-		23077BBC2306C6D4007E19DE /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB52306C6D3007E19DE /* Kingfisher.framework */; };
-		23077BBD2306C6D4007E19DE /* Kingfisher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB52306C6D3007E19DE /* Kingfisher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		23077BBE2306C6D4007E19DE /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB62306C6D3007E19DE /* PromiseKit.framework */; };
-		23077BBF2306C6D4007E19DE /* PromiseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB62306C6D3007E19DE /* PromiseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		23077BC02306C6D4007E19DE /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB72306C6D3007E19DE /* RxBlocking.framework */; };
-		23077BC12306C6D4007E19DE /* RxBlocking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB72306C6D3007E19DE /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		23077BC22306C6D4007E19DE /* RxAtomic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB82306C6D3007E19DE /* RxAtomic.framework */; };
-		23077BC32306C6D4007E19DE /* RxAtomic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB82306C6D3007E19DE /* RxAtomic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		23077BC42306C6D4007E19DE /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB92306C6D3007E19DE /* RxTest.framework */; };
-		23077BC52306C6D4007E19DE /* RxTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB92306C6D3007E19DE /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		23077BC62306C6D4007E19DE /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BBA2306C6D4007E19DE /* RxCocoa.framework */; };
-		23077BC72306C6D4007E19DE /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BBA2306C6D4007E19DE /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		23077BC82306C6D4007E19DE /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BBB2306C6D4007E19DE /* RxSwift.framework */; };
-		23077BC92306C6D4007E19DE /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BBB2306C6D4007E19DE /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		23077BCC2306C9C0007E19DE /* MainDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23077BCB2306C9C0007E19DE /* MainDependencyContainer.swift */; };
 		23077BE62306CE3D007E19DE /* SampleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BDD2306CE3C007E19DE /* SampleKit.framework */; };
 		23077BED2306CE3D007E19DE /* SampleKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23077BEC2306CE3D007E19DE /* SampleKitTests.swift */; };
 		23077BEF2306CE3D007E19DE /* SampleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 23077BDF2306CE3C007E19DE /* SampleKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23077BF22306CE3D007E19DE /* SampleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BDD2306CE3C007E19DE /* SampleKit.framework */; };
-		23077BF32306CE3D007E19DE /* SampleKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BDD2306CE3C007E19DE /* SampleKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		23077BFE2306D938007E19DE /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23077BFD2306D938007E19DE /* MainViewModel.swift */; };
-		23077C002306D97A007E19DE /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BBB2306C6D4007E19DE /* RxSwift.framework */; };
-		23077C012306D97E007E19DE /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB62306C6D3007E19DE /* PromiseKit.framework */; };
 		23077C032306D9F8007E19DE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23077C022306D9F8007E19DE /* MainView.swift */; };
 		23077C0A2306DA61007E19DE /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23077C092306DA61007E19DE /* UserSession.swift */; };
 		23077C0C2306DA90007E19DE /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23077C0B2306DA90007E19DE /* UserProfile.swift */; };
@@ -57,8 +39,6 @@
 		23077C622306E1CB007E19DE /* AppUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077C592306E1CA007E19DE /* AppUIKit.framework */; };
 		23077C692306E1CB007E19DE /* AppUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23077C682306E1CB007E19DE /* AppUIKitTests.swift */; };
 		23077C6B2306E1CB007E19DE /* AppUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 23077C5B2306E1CA007E19DE /* AppUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23077C6E2306E1CB007E19DE /* AppUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077C592306E1CA007E19DE /* AppUIKit.framework */; };
-		23077C6F2306E1CB007E19DE /* AppUIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077C592306E1CA007E19DE /* AppUIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		23077C7A2306E298007E19DE /* NiblessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23077C792306E298007E19DE /* NiblessView.swift */; };
 		23077C7C2306E2A9007E19DE /* NiblessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23077C7B2306E2A9007E19DE /* NiblessViewController.swift */; };
 		23077C7E2306E2B7007E19DE /* NiblessNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23077C7D2306E2B7007E19DE /* NiblessNavigationController.swift */; };
@@ -70,6 +50,38 @@
 		23077C8A2306E99B007E19DE /* ErrorPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23077C892306E99B007E19DE /* ErrorPresentation.swift */; };
 		23077C8C2306ECD3007E19DE /* UIViewController+ErrorPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23077C8B2306ECD3007E19DE /* UIViewController+ErrorPresentation.swift */; };
 		23077C8E2306ED2B007E19DE /* LaunchRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23077C8D2306ED2B007E19DE /* LaunchRootView.swift */; };
+		23E2D18623508F4700093C73 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB52306C6D3007E19DE /* Kingfisher.framework */; };
+		23E2D18723508F4700093C73 /* Kingfisher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB52306C6D3007E19DE /* Kingfisher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23E2D18823508F4700093C73 /* KingfisherSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E2D170235080D800093C73 /* KingfisherSwiftUI.framework */; };
+		23E2D18923508F4700093C73 /* KingfisherSwiftUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23E2D170235080D800093C73 /* KingfisherSwiftUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23E2D18A23508F4700093C73 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB62306C6D3007E19DE /* PromiseKit.framework */; };
+		23E2D18B23508F4700093C73 /* PromiseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB62306C6D3007E19DE /* PromiseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23E2D18C23508F4700093C73 /* RxAtomic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB82306C6D3007E19DE /* RxAtomic.framework */; };
+		23E2D18D23508F4700093C73 /* RxAtomic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB82306C6D3007E19DE /* RxAtomic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23E2D18E23508F4700093C73 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB72306C6D3007E19DE /* RxBlocking.framework */; };
+		23E2D18F23508F4700093C73 /* RxBlocking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB72306C6D3007E19DE /* RxBlocking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23E2D19023508F4700093C73 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BBA2306C6D4007E19DE /* RxCocoa.framework */; };
+		23E2D19123508F4700093C73 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BBA2306C6D4007E19DE /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23E2D19223508F4700093C73 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E2D171235080D800093C73 /* RxRelay.framework */; };
+		23E2D19323508F4700093C73 /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23E2D171235080D800093C73 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23E2D19423508F4700093C73 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BBB2306C6D4007E19DE /* RxSwift.framework */; };
+		23E2D19523508F4700093C73 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BBB2306C6D4007E19DE /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23E2D19623508F4700093C73 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB92306C6D3007E19DE /* RxTest.framework */; };
+		23E2D19723508F4700093C73 /* RxTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB92306C6D3007E19DE /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23E2D19923508F7500093C73 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB62306C6D3007E19DE /* PromiseKit.framework */; };
+		23E2D19A23508F7500093C73 /* PromiseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB62306C6D3007E19DE /* PromiseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23E2D19C2350966400093C73 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BBB2306C6D4007E19DE /* RxSwift.framework */; };
+		23E2D19D2350966400093C73 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BBB2306C6D4007E19DE /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23E2D19E235096B600093C73 /* SampleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BDD2306CE3C007E19DE /* SampleKit.framework */; };
+		23E2D19F235096B600093C73 /* SampleKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BDD2306CE3C007E19DE /* SampleKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23E2D1A3235096BF00093C73 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB52306C6D3007E19DE /* Kingfisher.framework */; };
+		23E2D1A4235096BF00093C73 /* Kingfisher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB52306C6D3007E19DE /* Kingfisher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23E2D1A5235096C700093C73 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB62306C6D3007E19DE /* PromiseKit.framework */; };
+		23E2D1A6235096C700093C73 /* PromiseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB62306C6D3007E19DE /* PromiseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23E2D1A7235096D200093C73 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BBA2306C6D4007E19DE /* RxCocoa.framework */; };
+		23E2D1A8235096D200093C73 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BBA2306C6D4007E19DE /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23E2D1A9235096DC00093C73 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BBB2306C6D4007E19DE /* RxSwift.framework */; };
+		23E2D1AA235096DC00093C73 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BBB2306C6D4007E19DE /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,13 +113,6 @@
 			remoteGlobalIDString = 23077B7F2306BD5A007E19DE;
 			remoteInfo = MVVMPractice;
 		};
-		23077BF02306CE3D007E19DE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 23077B782306BD5A007E19DE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 23077BDC2306CE3C007E19DE;
-			remoteInfo = SampleKit;
-		};
 		23077C632306E1CB007E19DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 23077B782306BD5A007E19DE /* Project object */;
@@ -122,31 +127,58 @@
 			remoteGlobalIDString = 23077B7F2306BD5A007E19DE;
 			remoteInfo = MVVMPractice;
 		};
-		23077C6C2306E1CB007E19DE /* PBXContainerItemProxy */ = {
+		23E2D1A0235096B600093C73 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 23077B782306BD5A007E19DE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 23077C582306E1CA007E19DE;
-			remoteInfo = AppUIKit;
+			remoteGlobalIDString = 23077BDC2306CE3C007E19DE;
+			remoteInfo = SampleKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		23077BCA2306C6D4007E19DE /* Embed Frameworks */ = {
+		23E2D19823508F4700093C73 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				23077BC72306C6D4007E19DE /* RxCocoa.framework in Embed Frameworks */,
-				23077BF32306CE3D007E19DE /* SampleKit.framework in Embed Frameworks */,
-				23077BBD2306C6D4007E19DE /* Kingfisher.framework in Embed Frameworks */,
-				23077BC92306C6D4007E19DE /* RxSwift.framework in Embed Frameworks */,
-				23077C6F2306E1CB007E19DE /* AppUIKit.framework in Embed Frameworks */,
-				23077BC32306C6D4007E19DE /* RxAtomic.framework in Embed Frameworks */,
-				23077BBF2306C6D4007E19DE /* PromiseKit.framework in Embed Frameworks */,
-				23077BC52306C6D4007E19DE /* RxTest.framework in Embed Frameworks */,
-				23077BC12306C6D4007E19DE /* RxBlocking.framework in Embed Frameworks */,
+				23E2D19123508F4700093C73 /* RxCocoa.framework in Embed Frameworks */,
+				23E2D18B23508F4700093C73 /* PromiseKit.framework in Embed Frameworks */,
+				23E2D19723508F4700093C73 /* RxTest.framework in Embed Frameworks */,
+				23E2D18F23508F4700093C73 /* RxBlocking.framework in Embed Frameworks */,
+				23E2D18D23508F4700093C73 /* RxAtomic.framework in Embed Frameworks */,
+				23E2D19523508F4700093C73 /* RxSwift.framework in Embed Frameworks */,
+				23E2D19323508F4700093C73 /* RxRelay.framework in Embed Frameworks */,
+				23E2D18923508F4700093C73 /* KingfisherSwiftUI.framework in Embed Frameworks */,
+				23E2D18723508F4700093C73 /* Kingfisher.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E2D19B23508F7500093C73 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				23E2D19D2350966400093C73 /* RxSwift.framework in Embed Frameworks */,
+				23E2D19A23508F7500093C73 /* PromiseKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E2D1A2235096B600093C73 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				23E2D1AA235096DC00093C73 /* RxSwift.framework in Embed Frameworks */,
+				23E2D1A8235096D200093C73 /* RxCocoa.framework in Embed Frameworks */,
+				23E2D1A6235096C700093C73 /* PromiseKit.framework in Embed Frameworks */,
+				23E2D1A4235096BF00093C73 /* Kingfisher.framework in Embed Frameworks */,
+				23E2D19F235096B600093C73 /* SampleKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +253,9 @@
 		23077C892306E99B007E19DE /* ErrorPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPresentation.swift; sourceTree = "<group>"; };
 		23077C8B2306ECD3007E19DE /* UIViewController+ErrorPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ErrorPresentation.swift"; sourceTree = "<group>"; };
 		23077C8D2306ED2B007E19DE /* LaunchRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchRootView.swift; sourceTree = "<group>"; };
+		2337EE6023506F2C00F5D3FF /* PromiseKit.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = PromiseKit.framework.dSYM; path = Carthage/Build/iOS/PromiseKit.framework.dSYM; sourceTree = "<group>"; };
+		23E2D170235080D800093C73 /* KingfisherSwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KingfisherSwiftUI.framework; path = Carthage/Build/iOS/KingfisherSwiftUI.framework; sourceTree = "<group>"; };
+		23E2D171235080D800093C73 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,15 +263,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23077BC62306C6D4007E19DE /* RxCocoa.framework in Frameworks */,
-				23077BF22306CE3D007E19DE /* SampleKit.framework in Frameworks */,
-				23077BBC2306C6D4007E19DE /* Kingfisher.framework in Frameworks */,
-				23077BC82306C6D4007E19DE /* RxSwift.framework in Frameworks */,
-				23077C6E2306E1CB007E19DE /* AppUIKit.framework in Frameworks */,
-				23077BC22306C6D4007E19DE /* RxAtomic.framework in Frameworks */,
-				23077BBE2306C6D4007E19DE /* PromiseKit.framework in Frameworks */,
-				23077BC42306C6D4007E19DE /* RxTest.framework in Frameworks */,
-				23077BC02306C6D4007E19DE /* RxBlocking.framework in Frameworks */,
+				23E2D19023508F4700093C73 /* RxCocoa.framework in Frameworks */,
+				23E2D18A23508F4700093C73 /* PromiseKit.framework in Frameworks */,
+				23E2D19623508F4700093C73 /* RxTest.framework in Frameworks */,
+				23E2D18E23508F4700093C73 /* RxBlocking.framework in Frameworks */,
+				23E2D18C23508F4700093C73 /* RxAtomic.framework in Frameworks */,
+				23E2D19423508F4700093C73 /* RxSwift.framework in Frameworks */,
+				23E2D19223508F4700093C73 /* RxRelay.framework in Frameworks */,
+				23E2D18823508F4700093C73 /* KingfisherSwiftUI.framework in Frameworks */,
+				23E2D18623508F4700093C73 /* Kingfisher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +293,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23077C002306D97A007E19DE /* RxSwift.framework in Frameworks */,
-				23077C012306D97E007E19DE /* PromiseKit.framework in Frameworks */,
+				23E2D19C2350966400093C73 /* RxSwift.framework in Frameworks */,
+				23E2D19923508F7500093C73 /* PromiseKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +310,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23E2D1A9235096DC00093C73 /* RxSwift.framework in Frameworks */,
+				23E2D1A7235096D200093C73 /* RxCocoa.framework in Frameworks */,
+				23E2D1A5235096C700093C73 /* PromiseKit.framework in Frameworks */,
+				23E2D1A3235096BF00093C73 /* Kingfisher.framework in Frameworks */,
+				23E2D19E235096B600093C73 /* SampleKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +454,9 @@
 		23077BFF2306D97A007E19DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				23E2D170235080D800093C73 /* KingfisherSwiftUI.framework */,
+				23E2D171235080D800093C73 /* RxRelay.framework */,
+				2337EE6023506F2C00F5D3FF /* PromiseKit.framework.dSYM */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -583,13 +626,11 @@
 				23077B7C2306BD5A007E19DE /* Sources */,
 				23077B7D2306BD5A007E19DE /* Frameworks */,
 				23077B7E2306BD5A007E19DE /* Resources */,
-				23077BCA2306C6D4007E19DE /* Embed Frameworks */,
+				23E2D19823508F4700093C73 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				23077BF12306CE3D007E19DE /* PBXTargetDependency */,
-				23077C6D2306E1CB007E19DE /* PBXTargetDependency */,
 			);
 			name = MVVMPractice;
 			productName = MVVMPractice;
@@ -640,6 +681,7 @@
 				23077BD92306CE3C007E19DE /* Sources */,
 				23077BDA2306CE3C007E19DE /* Frameworks */,
 				23077BDB2306CE3C007E19DE /* Resources */,
+				23E2D19B23508F7500093C73 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -677,10 +719,12 @@
 				23077C552306E1CA007E19DE /* Sources */,
 				23077C562306E1CA007E19DE /* Frameworks */,
 				23077C572306E1CA007E19DE /* Resources */,
+				23E2D1A2235096B600093C73 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				23E2D1A1235096B600093C73 /* PBXTargetDependency */,
 			);
 			name = AppUIKit;
 			productName = AppUIKit;
@@ -933,11 +977,6 @@
 			target = 23077B7F2306BD5A007E19DE /* MVVMPractice */;
 			targetProxy = 23077BE92306CE3D007E19DE /* PBXContainerItemProxy */;
 		};
-		23077BF12306CE3D007E19DE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 23077BDC2306CE3C007E19DE /* SampleKit */;
-			targetProxy = 23077BF02306CE3D007E19DE /* PBXContainerItemProxy */;
-		};
 		23077C642306E1CB007E19DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 23077C582306E1CA007E19DE /* AppUIKit */;
@@ -948,10 +987,10 @@
 			target = 23077B7F2306BD5A007E19DE /* MVVMPractice */;
 			targetProxy = 23077C652306E1CB007E19DE /* PBXContainerItemProxy */;
 		};
-		23077C6D2306E1CB007E19DE /* PBXTargetDependency */ = {
+		23E2D1A1235096B600093C73 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 23077C582306E1CA007E19DE /* AppUIKit */;
-			targetProxy = 23077C6C2306E1CB007E19DE /* PBXContainerItemProxy */;
+			target = 23077BDC2306CE3C007E19DE /* SampleKit */;
+			targetProxy = 23E2D1A0235096B600093C73 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1025,6 +1064,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1079,6 +1119,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1086,7 +1127,6 @@
 		23077BA92306BD5C007E19DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8MT7DH3FAZ;
@@ -1109,7 +1149,6 @@
 		23077BAA2306BD5C007E19DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8MT7DH3FAZ;
@@ -1219,6 +1258,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
 				DEVELOPMENT_TEAM = 8MT7DH3FAZ;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1237,6 +1277,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jesusrod.SampleKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1253,6 +1294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
 				DEVELOPMENT_TEAM = 8MT7DH3FAZ;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1271,6 +1313,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jesusrod.SampleKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1330,6 +1373,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AppUIKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1360,6 +1407,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AppUIKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
