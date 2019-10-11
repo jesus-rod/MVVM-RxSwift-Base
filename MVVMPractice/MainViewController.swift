@@ -38,17 +38,17 @@ public class MainViewController: NiblessViewController {
   let disposeBag = DisposeBag()
 
   // Factories
-//  let makeOnboardingViewController: () -> OnboardingViewController
+  let makeOnboardingViewController: () -> OnboardingViewController
 //  let makeSignedInViewController: (UserSession) -> SignedInViewController
 
   // MARK: - Methods
   init(viewModel: MainViewModel,
-       launchViewController: LaunchViewController) {//, //todo change this (uncomment and add dependencies)
-//              onboardingViewControllerFactory: @escaping () -> OnboardingViewController,
+       launchViewController: LaunchViewController,
+              onboardingViewControllerFactory: @escaping () -> OnboardingViewController) {//, //todo change this (uncomment and add dependencies)
 //              signedInViewControllerFactory: @escaping (UserSession) -> SignedInViewController) {
     self.viewModel = viewModel
     self.launchViewController = launchViewController
-//    self.makeOnboardingViewController = onboardingViewControllerFactory
+    self.makeOnboardingViewController = onboardingViewControllerFactory
 //    self.makeSignedInViewController = signedInViewControllerFactory
     super.init()
   }
@@ -87,20 +87,20 @@ public class MainViewController: NiblessViewController {
   }
 
   public func presentOnboarding() {
-//    let onboardingViewController = makeOnboardingViewController()
-//    onboardingViewController.modalPresentationStyle = .fullScreen
-//    present(onboardingViewController, animated: true) { [weak self] in
-//      guard let strongSelf = self else {
-//        return
-//      }
-//
-//      strongSelf.remove(childViewController: strongSelf.launchViewController)
-//      if let signedInViewController = strongSelf.signedInViewController {
-//        strongSelf.remove(childViewController: signedInViewController)
-//        strongSelf.signedInViewController = nil
-//      }
-//    }
-//    self.onboardingViewController = onboardingViewController
+    let onboardingViewController = makeOnboardingViewController()
+    onboardingViewController.modalPresentationStyle = .fullScreen
+    present(onboardingViewController, animated: true) { [weak self] in
+      guard let strongSelf = self else {
+        return
+      }
+
+      strongSelf.remove(childViewController: strongSelf.launchViewController)
+      if let signedInViewController = strongSelf.signedInViewController {
+        strongSelf.remove(childViewController: signedInViewController)
+        strongSelf.signedInViewController = nil
+      }
+    }
+    self.onboardingViewController = onboardingViewController
   }
 
   public func presentSignedIn(userSession: UserSession) {

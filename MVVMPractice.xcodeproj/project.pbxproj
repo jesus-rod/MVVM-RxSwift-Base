@@ -50,10 +50,6 @@
 		23077C8A2306E99B007E19DE /* ErrorPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23077C892306E99B007E19DE /* ErrorPresentation.swift */; };
 		23077C8C2306ECD3007E19DE /* UIViewController+ErrorPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23077C8B2306ECD3007E19DE /* UIViewController+ErrorPresentation.swift */; };
 		23077C8E2306ED2B007E19DE /* LaunchRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23077C8D2306ED2B007E19DE /* LaunchRootView.swift */; };
-		23E2D18623508F4700093C73 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB52306C6D3007E19DE /* Kingfisher.framework */; };
-		23E2D18723508F4700093C73 /* Kingfisher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB52306C6D3007E19DE /* Kingfisher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		23E2D18823508F4700093C73 /* KingfisherSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E2D170235080D800093C73 /* KingfisherSwiftUI.framework */; };
-		23E2D18923508F4700093C73 /* KingfisherSwiftUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23E2D170235080D800093C73 /* KingfisherSwiftUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		23E2D18A23508F4700093C73 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB62306C6D3007E19DE /* PromiseKit.framework */; };
 		23E2D18B23508F4700093C73 /* PromiseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB62306C6D3007E19DE /* PromiseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		23E2D18C23508F4700093C73 /* RxAtomic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB82306C6D3007E19DE /* RxAtomic.framework */; };
@@ -72,8 +68,6 @@
 		23E2D19D2350966400093C73 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BBB2306C6D4007E19DE /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		23E2D19E235096B600093C73 /* SampleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BDD2306CE3C007E19DE /* SampleKit.framework */; };
 		23E2D19F235096B600093C73 /* SampleKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BDD2306CE3C007E19DE /* SampleKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		23E2D1A3235096BF00093C73 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB52306C6D3007E19DE /* Kingfisher.framework */; };
-		23E2D1A4235096BF00093C73 /* Kingfisher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB52306C6D3007E19DE /* Kingfisher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		23E2D1A5235096C700093C73 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB62306C6D3007E19DE /* PromiseKit.framework */; };
 		23E2D1A6235096C700093C73 /* PromiseKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BB62306C6D3007E19DE /* PromiseKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		23E2D1A7235096D200093C73 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23077BBA2306C6D4007E19DE /* RxCocoa.framework */; };
@@ -100,6 +94,7 @@
 		23E2D1D62350A71900093C73 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E2D1D52350A71900093C73 /* SignInViewModel.swift */; };
 		23E2D1D92350A7FB00093C73 /* SignedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E2D1D82350A7FB00093C73 /* SignedInViewController.swift */; };
 		23E2D1DB2350A8D700093C73 /* ViewControllerContainment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E2D1DA2350A8D700093C73 /* ViewControllerContainment.swift */; };
+		23E2D1DD2350B35300093C73 /* OnboardingDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E2D1DC2350B35300093C73 /* OnboardingDependencyContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -174,8 +169,6 @@
 				23E2D18D23508F4700093C73 /* RxAtomic.framework in Embed Frameworks */,
 				23E2D19523508F4700093C73 /* RxSwift.framework in Embed Frameworks */,
 				23E2D19323508F4700093C73 /* RxRelay.framework in Embed Frameworks */,
-				23E2D18923508F4700093C73 /* KingfisherSwiftUI.framework in Embed Frameworks */,
-				23E2D18723508F4700093C73 /* Kingfisher.framework in Embed Frameworks */,
 				23E2D1BE23509E7200093C73 /* AppUIKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -202,7 +195,6 @@
 				23E2D1AA235096DC00093C73 /* RxSwift.framework in Embed Frameworks */,
 				23E2D1A8235096D200093C73 /* RxCocoa.framework in Embed Frameworks */,
 				23E2D1A6235096C700093C73 /* PromiseKit.framework in Embed Frameworks */,
-				23E2D1A4235096BF00093C73 /* Kingfisher.framework in Embed Frameworks */,
 				23E2D19F235096B600093C73 /* SampleKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -299,6 +291,7 @@
 		23E2D1D52350A71900093C73 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		23E2D1D82350A7FB00093C73 /* SignedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignedInViewController.swift; sourceTree = "<group>"; };
 		23E2D1DA2350A8D700093C73 /* ViewControllerContainment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerContainment.swift; sourceTree = "<group>"; };
+		23E2D1DC2350B35300093C73 /* OnboardingDependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingDependencyContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -312,8 +305,6 @@
 				23E2D18C23508F4700093C73 /* RxAtomic.framework in Frameworks */,
 				23E2D19423508F4700093C73 /* RxSwift.framework in Frameworks */,
 				23E2D19223508F4700093C73 /* RxRelay.framework in Frameworks */,
-				23E2D18823508F4700093C73 /* KingfisherSwiftUI.framework in Frameworks */,
-				23E2D18623508F4700093C73 /* Kingfisher.framework in Frameworks */,
 				23E2D1BD23509E7200093C73 /* AppUIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,7 +347,6 @@
 				23E2D1A9235096DC00093C73 /* RxSwift.framework in Frameworks */,
 				23E2D1A7235096D200093C73 /* RxCocoa.framework in Frameworks */,
 				23E2D1A5235096C700093C73 /* PromiseKit.framework in Frameworks */,
-				23E2D1A3235096BF00093C73 /* Kingfisher.framework in Frameworks */,
 				23E2D19E235096B600093C73 /* SampleKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -662,6 +652,7 @@
 				23E2D1C223509FA800093C73 /* Signup */,
 				23E2D1C123509F9500093C73 /* Welcome */,
 				23E2D1B223509B9F00093C73 /* OnboardingViewController.swift */,
+				23E2D1DC2350B35300093C73 /* OnboardingDependencyContainer.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -997,6 +988,7 @@
 				23E2D1C823509FFC00093C73 /* WelcomeRootView.swift in Sources */,
 				23077B842306BD5A007E19DE /* AppDelegate.swift in Sources */,
 				23077BCC2306C9C0007E19DE /* MainDependencyContainer.swift in Sources */,
+				23E2D1DD2350B35300093C73 /* OnboardingDependencyContainer.swift in Sources */,
 				23E2D1CC2350A01C00093C73 /* SignUpRootView.swift in Sources */,
 				23E2D1CA2350A01000093C73 /* SignUpViewController.swift in Sources */,
 				23E2D1D92350A7FB00093C73 /* SignedInViewController.swift in Sources */,

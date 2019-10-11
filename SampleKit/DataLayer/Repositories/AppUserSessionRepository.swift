@@ -9,7 +9,7 @@
 import Foundation
 import PromiseKit
 
-public class KooberUserSessionRepository: UserSessionRepository {
+public class AppUserSessionRepository: UserSessionRepository {
 
     // MARK: - Properties
     let dataStore: UserSessionDataStore

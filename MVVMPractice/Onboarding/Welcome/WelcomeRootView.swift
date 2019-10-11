@@ -20,6 +20,7 @@ public class WelcomeRootView: NiblessView {
     let imageView = UIImageView()
     imageView.image = #imageLiteral(resourceName: "sloth")
     imageView.backgroundColor = Color.background
+    imageView.contentMode = .scaleAspectFit
     return imageView
   }()
 
@@ -94,11 +95,13 @@ public class WelcomeRootView: NiblessView {
 
   func constructHierarchy() {
     addSubview(appLogoImageView)
+    addSubview(appNameLabel)
     addSubview(buttonStackView)
   }
 
   func activateConstraints() {
     activateConstraintsAppLogo()
+    activateConstraintsAppNameLabel()
     activateConstraintsButtons()
   }
 
@@ -108,7 +111,9 @@ public class WelcomeRootView: NiblessView {
       .constraint(equalTo: centerYAnchor)
     let centerX = appLogoImageView.centerXAnchor
       .constraint(equalTo: centerXAnchor)
-    NSLayoutConstraint.activate([centerY, centerX])
+    let height = appLogoImageView.heightAnchor.constraint(equalToConstant: 300)
+    let width = appLogoImageView.widthAnchor.constraint(equalToConstant: 300)
+    NSLayoutConstraint.activate([centerY, centerX, height, width])
   }
 
   func activateConstraintsAppNameLabel() {
