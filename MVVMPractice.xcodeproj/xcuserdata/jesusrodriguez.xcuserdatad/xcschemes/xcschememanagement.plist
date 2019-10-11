@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>AppUIKit.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>App_iOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>MVVMPractice.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>SampleKit.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>23077B7F2306BD5A007E19DE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>23077B932306BD5C007E19DE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>23077B9E2306BD5C007E19DE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>23077BDC2306CE3C007E19DE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>23077BE42306CE3D007E19DE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>23077C602306E1CA007E19DE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
