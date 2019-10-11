@@ -6,4 +6,9 @@
 //  Copyright © 2019 com.jesusrod. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import AppUIKit
+import SampleKit
+import RxSwift
+
+public class SignedInViewController: NiblessViewController {}

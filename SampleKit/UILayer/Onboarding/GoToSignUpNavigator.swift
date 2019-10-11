@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+public protocol GoToSignUpNavigator {
+  func navigateToSignUp()
+}
+
+public protocol GoToSignInNavigator {
+  func navigateToSignIn()
+}
