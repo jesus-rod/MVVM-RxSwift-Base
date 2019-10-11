@@ -68,18 +68,21 @@ public class MainDependencyContainer {
     func makeMainViewController() -> MainViewController {
         let launchViewController = makeLaunchViewController()
 
-        let onboardingViewControllerFactory = {
-            return self.makeOnboardingViewController()
-        }
 
-        let signedInViewControllerFactory = { (userSession: UserSession) in
-            return self.makeSignedInViewController(session: userSession)
-        }
+        //TODO: Add later
+//        let onboardingViewControllerFactory = {
+//            return self.makeOnboardingViewController()
+//        }
+
+//        let signedInViewControllerFactory = { (userSession: UserSession) in
+//            return self.makeSignedInViewController(session: userSession)
+//        }
 
         return MainViewController(viewModel: sharedMainViewModel,
-                                  launchViewController: launchViewController,
-                                  onboardingViewControllerFactory: onboardingViewControllerFactory,
-                                  signedInViewControllerFactory: signedInViewControllerFactory)
+                                  launchViewController: launchViewController)
+//todo change this (uncomment and add dependencies)
+//                                  onboardingViewControllerFactory: onboardingViewControllerFactory)
+//                                signedInViewControllerFactory: signedInViewControllerFactory)
     }
 
     // Launching
@@ -97,21 +100,21 @@ public class MainDependencyContainer {
     // Onboarding (signed-out)
     // Factories needed to create an OnboardingViewController.
 
-    public func makeOnboardingViewController() -> OnboardingViewController {
-        let dependencyContainer = KooberOnboardingDependencyContainer(appDependencyContainer: self)
-        return dependencyContainer.makeOnboardingViewController()
-    }
+//    public func makeOnboardingViewController() -> OnboardingViewController {
+//        let dependencyContainer = KooberOnboardingDependencyContainer(appDependencyContainer: self)
+//        return dependencyContainer.makeOnboardingViewController()
+//    }
 
     // Signed-in
 
-    public func makeSignedInViewController(session: UserSession) -> SignedInViewController {
-        let dependencyContainer = makeSignedInDependencyContainer(session: session)
-        return dependencyContainer.makeSignedInViewController()
-    }
-
-    public func makeSignedInDependencyContainer(session: UserSession) -> KooberSignedInDependencyContainer  {
-        return KooberSignedInDependencyContainer(userSession: session, appDependencyContainer: self)
-    }
+//    public func makeSignedInViewController(session: UserSession) -> SignedInViewController {
+//        let dependencyContainer = makeSignedInDependencyContainer(session: session)
+//        return dependencyContainer.makeSignedInViewController()
+//    }
+//
+//    public func makeSignedInDependencyContainer(session: UserSession) -> KooberSignedInDependencyContainer  {
+//        return KooberSignedInDependencyContainer(userSession: session, appDependencyContainer: self)
+//    }
 
 
 }

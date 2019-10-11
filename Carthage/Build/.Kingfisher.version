@@ -2,30 +2,30 @@
   "Mac" : [
     {
       "name" : "Kingfisher",
-      "hash" : "e86dde692415b586a06b10d0a5117cff0caea24cc08a13690197b16a506f7303",
-      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+      "hash" : "fa16f2d41e04ab8e6b8c6d47f9f2fb9e54287d053667acf4dde006883e33a019",
+      "swiftToolchainVersion" : "5.0.1 (swift-5.0.1-RELEASE)"
     }
   ],
   "watchOS" : [
     {
       "name" : "Kingfisher",
-      "hash" : "69cc0a07bba16652b13bceab0e8b5a98fbd3a75e80dc47b1cec5c45557c61798",
-      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+      "hash" : "e3b028a58a20465e911d519fe9bcec202735339c62ff138869857775b2090733",
+      "swiftToolchainVersion" : "5.0.1 (swift-5.0.1-RELEASE)"
     }
   ],
   "tvOS" : [
     {
       "name" : "Kingfisher",
-      "hash" : "9d82fbc3281862dd46614f642a0818523b5517d54004b7aa5c08f761c6e7be98",
-      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+      "hash" : "84793b795b6d8bdf10537fc02674b4c743087e9e4a9ecf33306e280ea50ec972",
+      "swiftToolchainVersion" : "5.0.1 (swift-5.0.1-RELEASE)"
     }
   ],
-  "commitish" : "5.3.1",
+  "commitish" : "5.7.0",
   "iOS" : [
     {
       "name" : "Kingfisher",
-      "hash" : "2ad64c989d9d9b8f57507fa7b1c035588266842080d89568b4e81ba6ebe17262",
-      "swiftToolchainVersion" : "5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+      "hash" : "ea98cd86e465dffde00602fa027b122b68f4c730f2fdb2e9270f5f09ab17f424",
+      "swiftToolchainVersion" : "5.0.1 (swift-5.0.1-RELEASE)"
     }
   ]
 }
