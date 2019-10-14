@@ -6,16 +6,17 @@
 //  Copyright © 2019 com.jesusrod. All rights reserved.
 //
 
-import Foundation
 import AppUIKit
+import Foundation
 import SampleKit
 
 class LaunchRootView: NiblessView {
-
     // MARK: - Properties
+
     let viewModel: LaunchViewModel
 
     // MARK: - Methods
+
     init(frame: CGRect = .zero,
          viewModel: LaunchViewModel) {
         self.viewModel = viewModel

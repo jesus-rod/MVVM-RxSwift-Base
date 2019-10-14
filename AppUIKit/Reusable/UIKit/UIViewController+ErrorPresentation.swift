@@ -7,13 +7,13 @@
 //
 
 import Foundation
-import UIKit
-import SampleKit
 import RxSwift
+import SampleKit
+import UIKit
 
 extension UIViewController {
-
     // MARK: - Methods
+
     public func present(errorMessage: ErrorMessage) {
         let errorAlertController = UIAlertController(title: errorMessage.title,
                                                      message: errorMessage.message,
@@ -35,6 +35,5 @@ extension UIViewController {
         }
         errorAlertController.addAction(okAction)
         present(errorAlertController, animated: true, completion: nil)
-
     }
 }

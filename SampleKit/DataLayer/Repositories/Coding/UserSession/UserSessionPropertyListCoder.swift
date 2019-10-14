@@ -9,8 +9,8 @@
 import Foundation
 
 public class UserSessionPropertyListCoder: UserSessionCoding {
-
     // MARK: - Methods
+
     public init() {}
 
     public func encode(userSession: UserSession) -> Data {

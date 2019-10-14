@@ -10,8 +10,8 @@ import Foundation
 import PromiseKit
 
 public struct FakeAuthRemoteAPI: AuthRemoteAPI {
-
     // MARK: - Methods
+
     public init() {}
 
     public func signIn(username: String, password: String) -> Promise<UserSession> {

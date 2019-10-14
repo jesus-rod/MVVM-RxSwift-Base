@@ -10,6 +10,5 @@ import Foundation
 
 // In a real app, errors would be modeled here.
 enum AppKitError: Error {
-
     case any
 }

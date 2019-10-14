@@ -9,8 +9,8 @@
 import Foundation
 
 public struct NewAccount: Codable {
-
     // MARK: - Properties
+
     public let fullName: String
     public let nickname: String
     public let email: String
@@ -18,6 +18,7 @@ public struct NewAccount: Codable {
     public let password: Secret
 
     // MARK: - Methods
+
     public init(fullName: String,
                 nickname: String,
                 email: String,
