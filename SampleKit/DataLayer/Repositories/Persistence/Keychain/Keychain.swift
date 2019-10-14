@@ -8,10 +8,9 @@
 
 import Foundation
 
-
 class Keychain {
-
     // MARK: - Methods
+
     static func findItem(query: KeychainItemQuery) throws -> Data? {
         var queryResult: AnyObject?
         let status = withUnsafeMutablePointer(to: &queryResult) {

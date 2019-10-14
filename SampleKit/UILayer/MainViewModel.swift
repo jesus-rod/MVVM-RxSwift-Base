@@ -10,12 +10,13 @@ import Foundation
 import RxSwift
 
 public class MainViewModel: SignedInResponder, NotSignedInResponder {
-
     // MARK: - Properties
+
     public var view: Observable<MainView> { return viewSubject.asObservable() }
     private let viewSubject = BehaviorSubject<MainView>(value: .launching)
 
     // MARK: - Methods
+
     public init() {}
 
     public func signedIn(to userSession: UserSession) {
@@ -24,8 +25,5 @@ public class MainViewModel: SignedInResponder, NotSignedInResponder {
 
     public func notSignedIn() {
         viewSubject.onNext(.onboarding)
-
     }
-
-
 }

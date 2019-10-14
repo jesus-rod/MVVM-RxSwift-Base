@@ -6,12 +6,11 @@
 //  Copyright © 2019 com.jesusrod. All rights reserved.
 //
 
-import UIKit
 import RxSwift
 import SampleKit
+import UIKit
 
 public class MainDependencyContainer {
-
     // MARK: - Properties
 
     // Long-lived dependencies
@@ -19,21 +18,22 @@ public class MainDependencyContainer {
     let sharedMainViewModel: MainViewModel
 
     // MARK: - Methods
+
     public init() {
         func makeUserSessionRepository() -> UserSessionRepository {
             let dataStore = makeUserSessionDataStore()
             let remoteAPI = makeAuthRemoteAPI()
             return AppUserSessionRepository(dataStore: dataStore,
-                                               remoteAPI: remoteAPI)
+                                            remoteAPI: remoteAPI)
         }
 
         func makeUserSessionDataStore() -> UserSessionDataStore {
             #if USER_SESSION_DATASTORE_FILEBASED
-            return FileUserSessionDataStore()
+                return FileUserSessionDataStore()
 
             #else
-            let coder = makeUserSessionCoder()
-            return KeychainUserSessionDataStore(userSessionCoder: coder)
+                let coder = makeUserSessionCoder()
+                return KeychainUserSessionDataStore(userSessionCoder: coder)
             #endif
         }
 
@@ -56,11 +56,9 @@ public class MainDependencyContainer {
             return MainViewModel()
         }
 
-        self.sharedUserSessionRepository = makeUserSessionRepository()
-        self.sharedMainViewModel = makeMainViewModel()
-
+        sharedUserSessionRepository = makeUserSessionRepository()
+        sharedMainViewModel = makeMainViewModel()
     }
-
 
     // Main
     // Factories needed to create a MainViewController.
@@ -68,10 +66,9 @@ public class MainDependencyContainer {
     func makeMainViewController() -> MainViewController {
         let launchViewController = makeLaunchViewController()
 
-
-        //TODO: Add later
+        // TODO: Add later
         let onboardingViewControllerFactory = {
-            return self.makeOnboardingViewController()
+            self.makeOnboardingViewController()
         }
 
 //        let signedInViewControllerFactory = { (userSession: UserSession) in
@@ -81,7 +78,7 @@ public class MainDependencyContainer {
         return MainViewController(viewModel: sharedMainViewModel,
                                   launchViewController: launchViewController,
                                   onboardingViewControllerFactory: onboardingViewControllerFactory)
-                                    //todo change this (uncomment and add dependencies)
+        //todo change this (uncomment and add dependencies)
 //                                signedInViewControllerFactory: signedInViewControllerFactory)
     }
 
@@ -115,8 +112,6 @@ public class MainDependencyContainer {
 //    public func makeSignedInDependencyContainer(session: UserSession) -> KooberSignedInDependencyContainer  {
 //        return KooberSignedInDependencyContainer(userSession: session, appDependencyContainer: self)
 //    }
-
-
 }
 
 extension MainDependencyContainer: LaunchViewModelFactory {}

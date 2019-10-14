@@ -11,15 +11,16 @@ import PromiseKit
 import RxSwift
 
 public class LaunchViewModel {
-
     // MARK: - Properties
+
     let userSessionRepository: UserSessionRepository
     let notSignedInResponder: NotSignedInResponder
     let signedInResponder: SignedInResponder
 
     public var errorMessages: Observable<ErrorMessage> {
-        return self.errorMessagesSubject.asObserver()
+        return errorMessagesSubject.asObserver()
     }
+
     private let errorMessagesSubject: PublishSubject<ErrorMessage> =
         PublishSubject()
 
@@ -27,6 +28,7 @@ public class LaunchViewModel {
         BehaviorSubject(value: nil)
 
     // MARK: - Methods
+
     public init(userSessionRepository: UserSessionRepository,
                 notSignedInResponder: NotSignedInResponder,
                 signedInResponder: SignedInResponder) {
@@ -38,11 +40,11 @@ public class LaunchViewModel {
     public func loadUserSession() {
         userSessionRepository.readUserSession()
             .done(goToNextScreen(userSession:))
-            .catch { error in
+            .catch { _ in // error in
                 let errorMessage = ErrorMessage(title: "Sign In Error",
                                                 message: "Sorry, we couldn't determine if you are already signed in. Please sign in or sign up.")
                 self.present(errorMessage: errorMessage)
-        }
+            }
     }
 
     func present(errorMessage: ErrorMessage) {
@@ -63,7 +65,7 @@ public class LaunchViewModel {
         switch userSession {
         case .none:
             notSignedInResponder.notSignedIn()
-        case .some(let userSession):
+        case let .some(userSession):
             signedInResponder.signedIn(to: userSession)
         }
     }

@@ -6,21 +6,21 @@
 //  Copyright © 2019 com.jesusrod. All rights reserved.
 //
 
-import UIKit
 import AppUIKit
-import SampleKit
 import RxCocoa
 import RxSwift
+import SampleKit
+import UIKit
 
 class LaunchViewController: NiblessViewController {
-
     let viewModel: LaunchViewModel
     let disposeBag = DisposeBag()
 
     init(launchViewModelFactory: LaunchViewModelFactory) {
-        self.viewModel = launchViewModelFactory.makeLaunchViewModel()
+        viewModel = launchViewModelFactory.makeLaunchViewModel()
         super.init()
     }
+
     public override func loadView() {
         view = LaunchRootView(viewModel: viewModel)
     }
@@ -37,14 +37,12 @@ class LaunchViewController: NiblessViewController {
             .drive(onNext: { [weak self] errorMessage in
                 guard let self = self else { return }
                 self.present(errorMessage: errorMessage,
-                                   withPresentationState: self.viewModel.errorPresentation)
+                             withPresentationState: self.viewModel.errorPresentation)
             })
             .disposed(by: disposeBag)
     }
 }
 
 protocol LaunchViewModelFactory {
-
     func makeLaunchViewModel() -> LaunchViewModel
 }
-

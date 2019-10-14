@@ -6,28 +6,28 @@
 //  Copyright © 2019 com.jesusrod. All rights reserved.
 //
 
-import UIKit
 import AppUIKit
 import SampleKit
+import UIKit
 
 public class WelcomeViewController: NiblessViewController {
+    // MARK: - Properties
 
-  // MARK: - Properties
-  let welcomeViewModelFactory: WelcomeViewModelFactory
+    let welcomeViewModelFactory: WelcomeViewModelFactory
 
-  // MARK: - Methods
-  init(welcomeViewModelFactory: WelcomeViewModelFactory) {
-    self.welcomeViewModelFactory = welcomeViewModelFactory
-    super.init()
-  }
+    // MARK: - Methods
 
-  public override func loadView() {
-    let viewModel = welcomeViewModelFactory.makeWelcomeViewModel()
-    view = WelcomeRootView(viewModel: viewModel)
-  }
+    init(welcomeViewModelFactory: WelcomeViewModelFactory) {
+        self.welcomeViewModelFactory = welcomeViewModelFactory
+        super.init()
+    }
+
+    public override func loadView() {
+        let viewModel = welcomeViewModelFactory.makeWelcomeViewModel()
+        view = WelcomeRootView(viewModel: viewModel)
+    }
 }
 
 protocol WelcomeViewModelFactory {
-
-  func makeWelcomeViewModel() -> WelcomeViewModel
+    func makeWelcomeViewModel() -> WelcomeViewModel
 }

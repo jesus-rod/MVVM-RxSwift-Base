@@ -1,0 +1,113 @@
+opt_in_rules:
+  - anyobject_protocol
+  - array_init
+  - closure_end_indentation
+  - closure_spacing
+  - collection_alignment
+  - contains_over_first_not_nil
+  - convenience_type
+  - empty_string
+  - toggle_bool
+  - unused_import
+  - unused_optional_binding
+  - no_extension_access_modifier
+  - for_where
+  - file_length
+  - fatal_error_message
+  - force_unwrapping
+  - nimble_operator
+  - redundant_nil_coalescing
+  - overridden_super_call
+  - explicit_init
+  - empty_count
+  - first_where
+  - object_literal
+  - operator_usage_whitespace
+  - prohibited_super_call
+  - switch_case_on_newline
+  - weak_delegate
+  - private_action
+  - legacy_multiple
+
+# rule identifiers to exclude from running
+disabled_rules:
+  - force_cast
+  - force_try
+  - nesting
+  - type_name
+  - line_length
+  - vertical_whitespace
+  - function_parameter_count
+  - unused_optional_binding
+  - discarded_notification_center_observer
+  - large_tuple
+  - nimble_operator
+
+# paths to ignore
+excluded:
+  - R.generated.swift
+  - Frameworks/Ride/Sources/R.generated.swift
+  - myDriverCustomer/R.generated.swift
+  - Pods
+  - Carthage
+  - .build
+
+# Rule configurations
+identifier_name:
+  min_length: 2
+file_length:
+  warning: 1000 # warning and error have same number to only show error
+  error: 1000
+type_body_length:
+  warning: 500 # warning and error have same number to only show error
+  error: 500
+
+custom_rules:
+  discouraged_ib_designable:
+    included: ".*\\.swift"
+    name: "Discouraged @IBDesignable"
+    regex: "@IBDesignable"
+    match_kinds:
+      - attribute.builtin
+    message: "Don't use @IBDesignables"
+    severity: error
+  discouraged_image_literal:
+    included: ".*\\.swift"
+    name: "Discouraged Image Literal"
+    regex: "imageLiteral"
+    match_kinds:
+      - objectliteral
+    message: "Please, use R.image instead of imageLiterals"
+    severity: warning
+  discouraged_dateformatter:
+    included: ".*\\.swift"
+    name: "Discouraged DateFormatter"
+    regex: "^[\\V]*?[\\W]+(ISO8601)?DateFormatter\\(.*?$"
+    message: "Please use the DateFormatterFactory of the Formatters.framework instead of creating your own DateFormatter instances."
+    severity: warning
+  discouraged_operation_queue_main:
+    included: ".*\\.swift"
+    name: "Discouraged OperationQueue main tasks"
+    regex: "OperationQueue.main.addOperation\\s\\{"
+    message: "To add work in the main task prefer using DispatchQueue to avoid overhead"
+    severity: warning
+    match_kinds:
+      - identifier
+  unsafe_localized:
+    included: ".*\\.swift"
+    name: "Unsafe Localized"
+    regex: "\\.localized[^(\\w]" # any occurrence of '.localized' not followed by a '(' or word characters
+    message: "Please use L10n.Localizable instead of calling .localized on Strings"
+    severity: error
+  discouraged_uppercased:
+    included: ".*\\.swift"
+    name: "Discouraged uppercased"
+    regex: "\\.uppercased()"
+    message: "Please do not use uppercased directly, it should be applied by the UI component you are using. If not possible use brandingCased()."
+    severity: error
+  disallowed_rendering_mode:
+    included: ".*\\.swift"
+    name: "Disallowed image rendering mode"
+    regex: "\\.withRenderingMode"
+    message: "Please do not use withRenderingMode on images. The rendering mode should be set in the asset catalogue and the components should tint an image if needed."
+    severity: error

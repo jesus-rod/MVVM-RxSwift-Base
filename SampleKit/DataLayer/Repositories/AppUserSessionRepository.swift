@@ -10,12 +10,13 @@ import Foundation
 import PromiseKit
 
 public class AppUserSessionRepository: UserSessionRepository {
-
     // MARK: - Properties
+
     let dataStore: UserSessionDataStore
     let remoteAPI: AuthRemoteAPI
 
     // MARK: - Methods
+
     public init(dataStore: UserSessionDataStore, remoteAPI: AuthRemoteAPI) {
         self.dataStore = dataStore
         self.remoteAPI = remoteAPI

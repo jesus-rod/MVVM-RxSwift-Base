@@ -1,0 +1,18 @@
+--closingparen balanced
+--commas inline
+--elseposition same-line
+--exponentgrouping enabled
+--fractiongrouping enabled
+--header ignore
+--importgrouping testable-bottom
+--indent 4
+--linebreaks lf
+--patternlet hoist
+--ranges nospace
+--self remove
+--stripunusedargs closure-only
+--wraparguments preserve
+--wrapcollections beforefirst
+--enable isEmpty
+--disable andOperator
+--exclude Pods, **/*.generated.swift, Carthage
